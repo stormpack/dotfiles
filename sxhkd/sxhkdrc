@@ -1,0 +1,48 @@
+# programs
+super + Return
+	urxvt
+
+super + w
+	dmenu_run -i -p ">" -fn "-spectrum-berry-medium-r-normal-sans-11-80-75-75-m-50-iso10646-1" -nb "#1A1C1F" -nf "#F9CC8F" -sb "#F9CC8F" -sf "#1A1C1F" -h "15"
+
+Print
+	 scrot -q 100 ~/usr/img/$(date '+%Y_%m_%d-%H%M%S').png
+
+# slow cursor movement
+super + {Up,Down,Left,Right}
+	xdotool mousemove_relative -- {0 -5,0 5,-5 0,5 0}
+
+# fast cursor movement
+super + shift + {Up,Down,Left,Right}
+	xdotool mousemove_relative -- {0 -10,0 10,-10 0,10 0}
+
+# fullscreen
+super + m
+	~/src/gh/contrib/fullscreen.sh $(pfw)
+
+# focus window
+super + Tab
+	~/src/gh/contrib/focus.sh next
+
+super + shift + Tab
+	~/src/gh/contrib/focus.sh prev
+
+# move window
+super + {s,d,f,a}
+	wmv {0 10,0 -10,10 0,-10 0} $(pfw)
+
+# resize window
+super + {semicolon,j,k,l}
+	wrs {10 0,-10 0,0 -10,0 10} $(pfw)
+
+# kill Window
+super + x
+	killw $(pfw)
+
+# reload
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# Kill X
+super + ctrl + q
+	pkill x
