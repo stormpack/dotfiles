@@ -27,7 +27,7 @@ alias vdir='vdir --color=auto'
 # configuration
 conf(){
 	case $1 in
-	zshrc)       vim ~/.zshrc && source ~/.zshrc ;;
+	zshrc)     vim ~/.zshrc && source ~/.zshrc ;;
 	xinit)     vim ~/.xinitrc ;;
 	xres)      vim ~/.Xresources && xrdb ~/.Xresources ;;
 	tmux)      vim ~/.tmux.conf ;;
