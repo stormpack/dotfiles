@@ -45,7 +45,7 @@ Xft*rgba:                   rgb
 ! ORANGE 
 *color3:  #F9CC8F
 *color11: #F3B386 
-! BLUE !NEW
+! BLUE
 *color4:  #8DA4A8
 *color12: #95B7C2 
 ! MAGENTA 
