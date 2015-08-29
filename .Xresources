@@ -30,24 +30,24 @@ Xft*antialias:              1
 Xft*rgba:                   rgb
 
 !!URxvt Color Scheme
-*background:  #1A1C1F
-*foreground:  #F6F5F0
+*background:  #1E1F20
+*foreground:  #EBEAE5
 
 ! BLACK 
 *color0:  #525252
 *color8:  #707070 
-! RED !NEW
+! RED 
 *color1:  #D48E9C
 *color9:  #D99CA6
-! GREEN !NEW
+! GREEN
 *color2:  #BBBB87
 *color10: #BFAF72
-! ORANGE !NEW
+! ORANGE 
 *color3:  #F9CC8F
 *color11: #F3B386 
-! BLUE
-*color4:  #869AA3 
-*color12: #96A8B7 
+! BLUE !NEW
+*color4:  #8DA4A8
+*color12: #95B7C2 
 ! MAGENTA 
 *color5:  #9F9CA9
 *color13: #B3A5B2 
