@@ -10,6 +10,7 @@ alias fonts='mkfontdir ~/.fonts;mkfontscale ~/.fonts;xset +fp ~/.fonts;xset fp r
 alias prt-get='sudo prt-get'
 alias pkgrm='sudo pkgrm'
 alias ports='sudo ports'
+alias pkgs='pkginfo -i | wc -l'
 
 ## root ##
 alias dhcpcd='sudo /sbin/dhcpcd'
