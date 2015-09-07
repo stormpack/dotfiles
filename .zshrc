@@ -88,8 +88,8 @@ fi
 a=`expr $a + 1`
 b=`expr $b + 2`
 c=`expr $c + 3`
-d=`expr $d + 4`
-e=`expr $d + 5`
+d=`expr $d + 2`
+e=`expr $d + 1`
 
 PROMPT="$(g)%{%B%F{$a}%}%n%{%F{$b}%}@%{%B%F{$c}%}%m %b%f"
 RPS1="%B%F{$a}%~%b%f"
