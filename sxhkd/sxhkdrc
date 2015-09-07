@@ -3,7 +3,7 @@ super + Return
 	urxvt
 
 super + w
-	dmenu_run -i -p ">" -fn "-spectrum-berry-medium-r-normal-sans-11-80-75-75-m-50-iso10646-1" -nb "#1A1C1F" -nf "#F9CC8F" -sb "#F9CC8F" -sf "#1A1C1F" -h "15"
+	dmenu_run -i -p ">" -fn "-lucy-tewi-medium-r-normal--11-90-75-75-m-60-iso10646-1" -nb "#050709" -nf "#6EBCDD" -sb "#6EBCDD" -sf "#050709" -h "15"
 
 Print
 	 scrot -q 100 ~/usr/img/$(date '+%Y_%m_%d-%H%M%S').png
