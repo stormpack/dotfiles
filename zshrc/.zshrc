@@ -19,8 +19,8 @@ HISTSIZE=128
 a=`expr $RANDOM / 15`
 b=`expr $RANDOM / 10`
 c=`expr $RANDOM / 15`
-d=`expr $RANDOM / 15`
-e=`expr $RANDOM / 15`
+d=`expr $RANDOM / 8`
+e=`expr $RANDOM / 8`
 
 function g {
 local DIRTY="%{%B%F{$d}%}"
@@ -89,7 +89,7 @@ a=`expr $a + 1`
 b=`expr $b + 2`
 c=`expr $c + 3`
 d=`expr $d + 2`
-e=`expr $d + 1`
+e=`expr $d + 2`
 
 PROMPT="$(g)%{%B%F{$a}%}%n%{%F{$b}%}@%{%B%F{$c}%}%m %b%f"
 RPS1="%B%F{$a}%~%b%f"
