@@ -2,7 +2,7 @@
 BLK                   38;5;68
 CAPABILITY            38;5;11
 CHR                   38;5;113;1
-DIR                   38;5;3
+DIR                   38;5;239
 DOOR                  38;5;127
 EXEC                  38;5;208;1
 FIFO                  38;5;126
@@ -45,7 +45,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .etx                  38;5;111
 .info                 38;5;112
 .markdown             38;5;113
-.md                   38;5;114
+.md                   38;5;1
 .mkd                  38;5;115
 .nfo                  38;5;116
 .pod                  38;5;117
