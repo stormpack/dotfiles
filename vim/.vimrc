@@ -1,5 +1,4 @@
 " Settings
-
 filetype on
 filetype plugin on
 filetype indent on
@@ -21,7 +20,6 @@ set mouse=a
 set modeline
 set more
 set ruler
-set number
 set cursorline
 set showmode
 set showcmd
@@ -47,30 +45,29 @@ if exists("syntax_on")
 endif
 
 set t_Co=256
-let g:colors_name = "AfterDark"
+let g:colors_name = "AfterParty"
 
 hi Normal         ctermfg=none
 hi Boolean        ctermfg=215
 hi Comment        ctermfg=14
 hi Conditional    ctermfg=176 cterm=bold
-hi Constant       ctermfg=11
+hi Constant       ctermfg=4
 hi CursorLine     ctermbg=235 cterm=none
 hi CursorLineNr   ctermfg=3   ctermbg=none
-hi LineNr         ctermfg=14
 hi DiffAdd        ctermfg=8   ctermbg=11
 hi DiffChange     ctermfg=8   ctermbg=12
 hi DiffText       ctermfg=8   ctermbg=13
 hi DiffDelete     ctermfg=8   ctermbg=14
 hi FoldColumn     ctermfg=239 ctermbg=234
-hi Folded         ctermfg=3   ctermbg=234
+hi Folded         ctermfg=4   ctermbg=234
 hi Function       ctermfg=11
-hi StatusLine     ctermfg=234 ctermbg=239
+hi StatusLine     ctermfg=4  ctermbg=239
 hi StatusLineNC   ctermfg=2
-hi Statement      ctermfg=11
-hi Number         ctermfg=174
+hi Statement      ctermfg=4
+hi Number         ctermfg=9
 hi MatchParen     ctermfg=240
-hi ModeMsg        ctermfg=3   ctermbg=235
-hi String         ctermfg=3
+hi ModeMsg        ctermfg=4   ctermbg=235
+hi String         ctermfg=4
 hi Operator       ctermfg=215 cterm=none
 hi PreCondit      ctermfg=9   cterm=none
 hi PreProc        ctermfg=217
