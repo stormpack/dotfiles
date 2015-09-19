@@ -2,14 +2,14 @@
 # Mulitcolor Minimal Prompt
 #
 
-a=`expr $RANDOM / 15`
+a=`expr $RANDOM / 14`
 
 precmd () {
  
 psvar=()
 LANG=en_US.UTF-8
  
-if [ $a -ge 15 ]
+if [ $a -ge 14 ]
   then
     a=0
 fi
