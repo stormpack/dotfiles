@@ -44,16 +44,15 @@ if exists("syntax_on")
 	syntax reset
 endif
 
-set t_Co=256
-let g:colors_name = "AfterParty"
+set t_Co=16
+let g:colors_name = "CottonCandy"
 
 hi Normal         ctermfg=none
 hi Boolean        ctermfg=215
 hi Comment        ctermfg=14
 hi Conditional    ctermfg=176 cterm=bold
 hi Constant       ctermfg=173
-hi CursorLine     ctermbg=235 cterm=none
-hi CursorLineNr   ctermfg=3   ctermbg=none
+hi CursorLine     ctermbg=235 cterm=bold
 hi DiffAdd        ctermfg=8   ctermbg=11
 hi DiffChange     ctermfg=8   ctermbg=12
 hi DiffText       ctermfg=8   ctermbg=13
@@ -62,7 +61,7 @@ hi FoldColumn     ctermfg=239 ctermbg=234
 hi Folded         ctermfg=4   ctermbg=234
 hi Function       ctermfg=11
 hi StatusLine     ctermfg=4   ctermbg=239
-hi StatusLineNC   ctermfg=2
+hi StatusLineNC   ctermfg=235
 hi Statement      ctermfg=14
 hi Number         ctermfg=9
 hi MatchParen     ctermfg=240
