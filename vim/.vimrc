@@ -31,7 +31,6 @@ set foldmethod=syntax
 set wildmenu
 set wildmode=longest,full,list
 set fillchars=vert:\
-set laststatus=2
 set cmdheight=1
 
 " Crux Linux
