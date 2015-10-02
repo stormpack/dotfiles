@@ -1,4 +1,3 @@
-" Settings
 filetype on
 filetype plugin on
 filetype indent on
@@ -33,17 +32,15 @@ set wildmode=longest,full,list
 set fillchars=vert:\
 set cmdheight=1
 
-" Crux Linux
 au BufNewFile,BufRead *Pkgfile set filetype=sh
 
-" Colorscheme
 set background=dark
 highlight clear
 if exists("syntax_on")
 	syntax reset
 endif
 
-set t_Co=16
+set t_Co=256
 let g:colors_name = "CottonCandy"
 
 hi Normal         ctermfg=none
@@ -80,7 +77,6 @@ hi Title          ctermfg=173
 hi Type           ctermfg=239
 hi Visual         ctermfg=209
 
-" General highlighting group links.
 highlight! link diffAdded       DiffAdd
 highlight! link diffRemoved     DiffDelete
 highlight! link diffChanged     DiffChange
@@ -93,7 +89,6 @@ highlight! link TabLine         StatusLineNC
 highlight! link TabLineFill     StatusLineNC
 highlight! link VimHiGroup      VimGroup
 
-" Test the actual colorscheme
 syn match Comment      "\"__Comment.*"
 syn match Constant     "\"__Constant.*"
 syn match Cursor       "\"__Cursor.*"

@@ -30,7 +30,7 @@ Xft*antialias:              1
 Xft*rgba:                   rgb
 
 !!URxvt Color Scheme
-*background:  #050709
+*background:  #020305
 *foreground:  #EBEAE5
 
 ! BLACK 
@@ -46,8 +46,8 @@ Xft*rgba:                   rgb
 *color3:  #F9CC8F
 *color11: #F3B386 
 ! BLUE
-*color4:  #658C9D
-*color12: #6EBCDD
+*color4:  #6178C4
+*color12: #7BA9F8
 ! MAGENTA 
 *color5:  #9F9CA9
 *color13: #B3A5B2 

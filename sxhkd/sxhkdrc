@@ -3,7 +3,7 @@ super + Return
 	urxvt
 
 super + w
-	dmenu_run -i -p ">" -fn "-lucy-tewi-medium-r-normal--11-90-75-75-m-60-iso10646-1" -nb "#050709" -nf "#6EBCDD" -sb "#6EBCDD" -sf "#050709" -h "15"
+	dmenu_run -i -p ">" -fn "-lucy-tewi-medium-r-normal--11-90-75-75-m-60-iso10646-1" -nb "#020305" -nf "#6178C4" -sb "#6178C4" -sf "#020305" -h "15"
 
 Print
 	 scrot -q 100 ~/usr/img/$(date '+%Y_%m_%d-%H%M%S').png
@@ -17,19 +17,25 @@ super + shift + {Up,Down,Left,Right}
 	xdotool mousemove_relative -- {0 -10,0 10,-10 0,10 0}
 
 # fullscreen
+super + t
+	~/src/gh/wmutils/contrib/tile.sh
+
 super + m
-	~/src/gh/contrib/fullscreen.sh $(pfw)
+	~/src/gh/wmutils/contrib/fullscreen.sh $(pfw)
 
 # focus window
 super + Tab
-	~/src/gh/contrib/focus.sh next
+	~/src/gh/wmutils/contrib/focus.sh next
 
 super + shift + Tab
-	~/src/gh/contrib/focus.sh prev
+	~/src/gh/wmutils/contrib/focus.sh prev
 
 # move window
 super + {s,d,f,a}
 	wmv {0 10,0 -10,10 0,-10 0} $(pfw)
+
+super + shift + {s,d,f,a}
+	wmv {0 1,0 -1,1 0,-1 0} $(pfw)
 
 # resize window
 super + {semicolon,j,k,l}
