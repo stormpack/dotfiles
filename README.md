@@ -1,3 +1,3 @@
 Various configuration files
 
-Minimalizing workspace and cleaning git 
+![](http://i.imgur.com/ZsFHpYH.png)
